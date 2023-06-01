@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Pages</title>
+</head>
+<body>
+  <h1><u>Next and Previous Page Numbers</u></h1>
+
+  <div class="box">
+    <div id="page1" class="page">
+      <h1>Page 1</h1>
+    </div>
+    <a href="#" onclick="nextPage(2)">Page 2</a><br>
+    <button onclick="nextPage(2)">Next</button>
+  </div>
+
+  <div class="box">
+    <div id="page2" class="page" style="display: none;">
+      <h1>Page 2</h1>
+    </div>
+    <a href="#" onclick="nextPage(3)">Page 3</a><br>
+    <button onclick="nextPage(3)">Next</button>
+    <button onclick="previousPage(1)">Previous</button>
+  </div>
+
+  <div class="box">
+    <div id="page3" class="page" style="display: none;">
+      <h1>Page 3</h1>
+    </div>
+    <a href="#" onclick="nextPage(2)">Page 2</a><br>
+    <button onclick="previousPage(2)">Previous</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .page {
+    display: none;
+  }
+  
+  .page:first-child {
+    display: block;
+  }
+  
